@@ -1,9 +1,11 @@
-# Node.js REST 框架 V1
+# Node.js REST 框架 V2
 
-目前只将 Controller层和Router层分离出来
+## V2
 
-Model层将再后续版本分离
+- 新增 Response 模块，统一请求响应，并将其在控制台输出记录运行log
 
+- 完善Mysql error 避免因某个错误阻塞进程
+- 预加载Server Plugins 增加跨域支持
 
 ## Run
 
@@ -11,4 +13,7 @@ Model层将再后续版本分离
 yarn install
 or
 npm install
+then
+node index.js
 ```
+
