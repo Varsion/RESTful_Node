@@ -1,4 +1,9 @@
-# Node.js REST 框架 V2
+# Node.js REST 框架
+
+## V1
+
+- 分离Controller和Router层
+
 
 ## V2
 
